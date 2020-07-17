@@ -1,0 +1,490 @@
+body {
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 100%;
+    height: 670px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    position: fixed;
+}
+
+#bg {
+    background-image: url(images/pessoastrabalhando.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+#carrosel {
+    position: static;
+    text-align: center;
+    padding: 76px;
+    font-weight: bold;
+}
+
+.icone {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-control-next {
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    transition: background-color 1s;
+    margin-left: 580px;
+    display: block;
+    border-radius:5px;
+    cursor: pointer;
+    position: fixed;
+}
+   
+menu:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 8px 10px; 
+    margin:9px;
+    border: 0px solid #333; 
+    background: black;
+    text-decoration: none;
+    font-weight: bold;
+    color:#FFF;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+
+#conteudo {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+#conteudo h1 {
+    color:black;
+    font-weight: 800;
+}
+
+.contador {
+    color: rgb(194, 8, 8);
+    font-size: 80px;
+}
+
+.informacao {
+    font-size: 30px;
+}
+
+.row {
+    display: inline;
+    color: #000;
+}
+.item-left {
+    text-align: left;
+    float: left;
+}
+
+.item-center {
+    text-align: center;
+    margin-left: 130px;
+}
+
+.item-right {
+    text-align: right;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+p {
+    font-size: 22px;
+    font-style: initial;
+}
+
+#cliente h1{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(194, 8, 8);
+}
+
+#clientes {
+    width: 100%;
+    height: 100%;
+}
+
+.barra {
+    background-color: black;
+    position: relative;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contato {
+    color: #000;
+}
+
+#contato h1 {
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: red;
+    padding-left: -60px;
+}
+
+#form {
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+#form #span-nome {
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#form #input-nome {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 450px;
+    height: 30px;
+    border-radius: 8px;
+    border:solid 1px #999;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#form #span-email {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#form #input-email {
+    margin-top: 15px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border:solid 1px #999;
+    margin-bottom: 15px;
+    margin-left: 50px;
+   
+}
+
+#form #span-telefone {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -80px;
+}
+
+#form #input-telefone {
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border:solid 1px #999;
+    margin-bottom: 8px;
+    margin-left: -80px;
+}
+
+#form #span-solicitacao {
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+#textarea-solicitacao {
+    margin-left: 50px;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 450px;
+    height: 145px;
+    border-radius: 8px;
+    border:solid 1px #999;
+}
+
+#btn-form {
+    margin-left: 50px;
+}
+
+
+#informacao-contato h3{
+    color: #000;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 200px;
+    margin-top: -420px;
+    margin-bottom: 15px;
+}
+
+#informacao-contato span{
+    font-size: 15px;
+    color: #000;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.user1 {
+    margin-left: 650px;
+}
+.user2 {
+   margin-left: 950px;
+   margin-top: -75px;
+}
+
+#endereco {
+   margin-left: 650px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+#mapa {
+    margin-left: 650px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.barra-footer {
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+.carousel-inner img {
+    margin-top: 10px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+} 
+.carousel-inner h1 {
+    text-align: center;
+    color: #000;
+}
+.carousel-inner p {
+    text-align: center;
+    color:rgb(194, 8, 8);
+}
+
+#servico {
+    margin-top: 180px;
+   
+}  
+
+#serv {
+    background-color: purple;
+    position: static;
+    height: 100%;
+    color: white;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+
+.topico {
+    margin-left: 60px;
+    color: white;
+    padding-top: 40px;
+}
+
+.desenvolvimento{
+    margin-left: -270px;
+    padding-bottom: -45px;
+    font-size: 25px;
+}
+
+.sustentacao{
+    margin-left: 400px;
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+
+.selecao{
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+#t5{
+    margin-left: 490px;
+    margin-top: -73px;
+}
+
+#t6{
+    margin-left: 615px;
+    margin-top: -120px;
+}
+
+#homming{
+    color: white;
+    margin-left: 1100px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.login_every{
+    padding-top: 120px;
+    margin-left: 580px; 
+}
+
+.vga{
+    background-color: #CCC;
+}
+
+#cabeca{
+    display: block;
+    position: fixed;
+
+}
+
+.vagas{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.seta{
+    margin-left: 500px;
+    padding-top: 30px;
+}
+
+#login{
+    color: white;
+    margin-left: 800px;
+    margin-top: 40px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#conta{
+    color: white;
+    margin-left: 650px;
+    margin-top: 40px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#home_login{
+    color: white;
+    margin-left: 1050px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#exampleInputEmail1{
+    max-width: 400px;
+    margin-left: 450px;
+}
+
+.logon{
+    margin-left: 450px;
+    padding-top: 35px;
+}
+
+#exampleInputPassword1{
+    max-width: 400px;
+    margin-left: 450px;
+}
+
+#exampleCheck1{
+    margin-left: 430px;
+    padding-top: 35px;
+}
+
+#salvar_login{
+    margin-left: 455px;
+}
+
+#login_enviar{
+    margin-left: 450px;
+}
+
+#bot_log{
+    color: white;
+    margin-left: 1170px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+#home_conta{
+    color: white;
+    margin-left: 1100px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#bot_cad{
+    color: white;
+    margin-left: 1130px;
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+
